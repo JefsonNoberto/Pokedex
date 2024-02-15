@@ -1,0 +1,21 @@
+.normal {
+  background-color: #51585a;
+}
+.fire {
+  background-color: #df2424;
+}
+.grass {
+  background-color: #6bff77;
+}
+.bug {
+  background-color: #d1ff54;
+}
+.water {
+  background-color: rgb(39, 241, 255);
+}
+.poison {
+  background-color: rgb(198, 71, 248);
+}
+.electric {
+  background-color: #d1ff54;
+}
