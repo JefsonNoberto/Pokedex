@@ -11,6 +11,42 @@ body {
 .content {
   background-color: #e7e7e7;
   width: 100vw;
-  height: 100vh;
-  padding: 20px 10px;
+  height: 100%;
+  padding: 60px 10px 0 10px;
+}
+#button span {
+  padding: 10px;
+  color: #e7e7e7;
+  text-align: center;
+}
+#button {
+  background-color: black;
+  border: none;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#paginacao {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  position: fixed;
+  background-color: #e7e7e7;
+  top: 0%;
+  width: 100%;
+  margin: 0;
+  z-index: 1;
+}
+.navbar div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+#pesquisa {
+  text-align: center;
+  width: 300px;
 }

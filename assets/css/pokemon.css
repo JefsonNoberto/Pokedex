@@ -36,7 +36,8 @@ ol .pokemons {
   border-radius: 10px;
   padding: 0 5px 0 5px;
   font-size: 15px;
-  filter: brightness(1.4);
+  font-weight: 400;
+  filter: brightness(1.1);
 }
 .name {
   display: flex;
