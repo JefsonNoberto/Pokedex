@@ -2,7 +2,7 @@ const lista = document.getElementById("pokemons");
 const maispokemons = document.getElementById("button");
 
 let offset = 0;
-let limit = 5;
+let limit = 20;
 mais(offset, limit);
 function listadehtmlpokemon(pokemon) {
   return ` <li class="pokemon ${pokemon.type}">
